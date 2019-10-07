@@ -1,0 +1,12 @@
+server:
+  port: 8040
+eureka:
+  client:
+    service-url:
+      defaultZonde: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: ribbon
+
